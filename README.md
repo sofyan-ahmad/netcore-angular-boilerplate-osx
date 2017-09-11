@@ -4,7 +4,23 @@ This is a template to create **.NET Core API and Angular for OSX and linux with 
  
 User Interface is based on [BSB Admin theme](https://github.com/gurayyarar/AdminBSBMaterialDesign).
  
-# Up and Running [TO DO]
+# Up and Running
+### Baceknd
+- git clone https://github.com/sofyanhadia/netcore-angular-boilerplate-osx.git 
+- cd aspnet-core/src/AbpCompanyName.AbpProjectName.EntityFrameworkCore
+- dotent restore
+- Configure mysql server in:
+    AbpCompanyName.AbpProjectName.Migrator/appsettings.json
+    AbpCompanyName.AbpProjectName.Web.Mvc/appsettings.json
+    AbpCompanyName.AbpProjectName.Web.Host/appsettings.json
+- dotnet ef database update
+- cd ../AbpCompanyName.AbpProjectName.Web.Host
+- dotnet run
+
+### Frontend
+- cd angular
+- npm install
+- npm start
 
 # Download
 
