@@ -7,19 +7,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AFAA0841-BD9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F10AA149-2626-486E-85BB-9CD5365F3016}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpCompanyName.AbpProjectName.Core", "src\AbpCompanyName.AbpProjectName.Core\AbpCompanyName.AbpProjectName.Core.csproj", "{0FA75A5B-AB83-4FD0-B545-279774C01E87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpCompanyName.AbpProjectName.Core", "src\AbpCompanyName.AbpProjectName.Core\AbpCompanyName.AbpProjectName.Core.csproj", "{0FA75A5B-AB83-4FD0-B545-279774C01E87}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpCompanyName.AbpProjectName.Application", "src\AbpCompanyName.AbpProjectName.Application\AbpCompanyName.AbpProjectName.Application.csproj", "{3870C648-4AEA-4B85-BA3F-F2F63B96136A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpCompanyName.AbpProjectName.Application", "src\AbpCompanyName.AbpProjectName.Application\AbpCompanyName.AbpProjectName.Application.csproj", "{3870C648-4AEA-4B85-BA3F-F2F63B96136A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpCompanyName.AbpProjectName.Tests", "test\AbpCompanyName.AbpProjectName.Tests\AbpCompanyName.AbpProjectName.Tests.csproj", "{0D4C5D00-C144-4213-A007-4B8944113AB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpCompanyName.AbpProjectName.Tests", "test\AbpCompanyName.AbpProjectName.Tests\AbpCompanyName.AbpProjectName.Tests.csproj", "{0D4C5D00-C144-4213-A007-4B8944113AB1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpCompanyName.AbpProjectName.Migrator", "src\AbpCompanyName.AbpProjectName.Migrator\AbpCompanyName.AbpProjectName.Migrator.csproj", "{880B3591-E057-46FE-B525-10BD83828B93}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpCompanyName.AbpProjectName.Migrator", "src\AbpCompanyName.AbpProjectName.Migrator\AbpCompanyName.AbpProjectName.Migrator.csproj", "{880B3591-E057-46FE-B525-10BD83828B93}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpCompanyName.AbpProjectName.Web.Host", "src\AbpCompanyName.AbpProjectName.Web.Host\AbpCompanyName.AbpProjectName.Web.Host.csproj", "{38E184BD-E874-4633-A947-AED4FDB73F40}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpCompanyName.AbpProjectName.Web.Host", "src\AbpCompanyName.AbpProjectName.Web.Host\AbpCompanyName.AbpProjectName.Web.Host.csproj", "{38E184BD-E874-4633-A947-AED4FDB73F40}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpCompanyName.AbpProjectName.Web.Core", "src\AbpCompanyName.AbpProjectName.Web.Core\AbpCompanyName.AbpProjectName.Web.Core.csproj", "{22CFE0D2-8DCA-42D7-AD7D-784C3862493F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpCompanyName.AbpProjectName.Web.Core", "src\AbpCompanyName.AbpProjectName.Web.Core\AbpCompanyName.AbpProjectName.Web.Core.csproj", "{22CFE0D2-8DCA-42D7-AD7D-784C3862493F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpCompanyName.AbpProjectName.Web.Mvc", "src\AbpCompanyName.AbpProjectName.Web.Mvc\AbpCompanyName.AbpProjectName.Web.Mvc.csproj", "{A2213374-BB48-48FD-BBD4-81E6A961D866}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpCompanyName.AbpProjectName.Web.Mvc", "src\AbpCompanyName.AbpProjectName.Web.Mvc\AbpCompanyName.AbpProjectName.Web.Mvc.csproj", "{A2213374-BB48-48FD-BBD4-81E6A961D866}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpCompanyName.AbpProjectName.EntityFrameworkCore", "src\AbpCompanyName.AbpProjectName.EntityFrameworkCore\AbpCompanyName.AbpProjectName.EntityFrameworkCore.csproj", "{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F}"
 EndProject

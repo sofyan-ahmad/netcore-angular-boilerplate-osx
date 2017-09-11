@@ -6,3 +6,5 @@ obj/
 bin/
 aspnet-core/src/AbpCompanyName.AbpProjectName.Web.Host/App_Data/Logs/
 aspnet-core/src/AbpCompanyName.AbpProjectName.Web.Mvc/App_Data/Logs/
+.DS_Store
+.history/

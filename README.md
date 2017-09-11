@@ -1,12 +1,11 @@
 # Introduction
 
-This is a template to create **ASP.NET Core MVC / Angular** based startup projects for [ASP.NET Boilerplate](https://aspnetboilerplate.com/Pages/Documents). It has 2 different versions:
-
-1. [ASP.NET Core MVC & jQuery](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Core) (server rendered multi-page application).
-2. [ASP.NET Core & Angular](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Angular) (single page application).
+This is a template to create **.NET Core API and Angular for OSX and linux**, based startup projects for [ASP.NET Boilerplate](https://aspnetboilerplate.com/Pages/Documents).
  
 User Interface is based on [BSB Admin theme](https://github.com/gurayyarar/AdminBSBMaterialDesign).
  
+# Up and Running [TO DO]
+
 # Download
 
 Create & download your project from https://aspnetboilerplate.com/Templates

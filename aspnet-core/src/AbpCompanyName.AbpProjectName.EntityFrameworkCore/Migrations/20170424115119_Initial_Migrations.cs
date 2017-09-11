@@ -13,8 +13,8 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                 name: "AbpEditions",
                 columns: table => new
                 {
-                    Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<int>(nullable: false),
+                        //.Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     CreationTime = table.Column<DateTime>(nullable: false),
                     CreatorUserId = table.Column<long>(nullable: true),
                     DeleterUserId = table.Column<long>(nullable: true),
@@ -34,8 +34,8 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                 name: "AbpAuditLogs",
                 columns: table => new
                 {
-                    Id = table.Column<long>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<long>(nullable: false),
+                        //.Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     BrowserInfo = table.Column<string>(maxLength: 256, nullable: true),
                     ClientIpAddress = table.Column<string>(maxLength: 64, nullable: true),
                     ClientName = table.Column<string>(maxLength: 128, nullable: true),
@@ -60,8 +60,8 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                 name: "AbpUserAccounts",
                 columns: table => new
                 {
-                    Id = table.Column<long>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<long>(nullable: false),
+                        //.Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     CreationTime = table.Column<DateTime>(nullable: false),
                     CreatorUserId = table.Column<long>(nullable: true),
                     DeleterUserId = table.Column<long>(nullable: true),
@@ -85,8 +85,8 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                 name: "AbpUserLoginAttempts",
                 columns: table => new
                 {
-                    Id = table.Column<long>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<long>(nullable: false),
+                        //.Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     BrowserInfo = table.Column<string>(maxLength: 256, nullable: true),
                     ClientIpAddress = table.Column<string>(maxLength: 64, nullable: true),
                     ClientName = table.Column<string>(maxLength: 128, nullable: true),
@@ -106,8 +106,8 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                 name: "AbpUserOrganizationUnits",
                 columns: table => new
                 {
-                    Id = table.Column<long>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<long>(nullable: false),
+                        //.Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     CreationTime = table.Column<DateTime>(nullable: false),
                     CreatorUserId = table.Column<long>(nullable: true),
                     OrganizationUnitId = table.Column<long>(nullable: false),
@@ -123,8 +123,8 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                 name: "AbpBackgroundJobs",
                 columns: table => new
                 {
-                    Id = table.Column<long>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<long>(nullable: false),
+                        //.Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     CreationTime = table.Column<DateTime>(nullable: false),
                     CreatorUserId = table.Column<long>(nullable: true),
                     IsAbandoned = table.Column<bool>(nullable: false),
@@ -144,8 +144,8 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                 name: "AbpLanguages",
                 columns: table => new
                 {
-                    Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<int>(nullable: false),
+                        //.Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     CreationTime = table.Column<DateTime>(nullable: false),
                     CreatorUserId = table.Column<long>(nullable: true),
                     DeleterUserId = table.Column<long>(nullable: true),
@@ -167,8 +167,8 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                 name: "AbpLanguageTexts",
                 columns: table => new
                 {
-                    Id = table.Column<long>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<long>(nullable: false),
+                        //.Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     CreationTime = table.Column<DateTime>(nullable: false),
                     CreatorUserId = table.Column<long>(nullable: true),
                     Key = table.Column<string>(maxLength: 256, nullable: false),
@@ -267,8 +267,8 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                 name: "AbpOrganizationUnits",
                 columns: table => new
                 {
-                    Id = table.Column<long>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<long>(nullable: false),
+                        //.Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Code = table.Column<string>(maxLength: 95, nullable: false),
                     CreationTime = table.Column<DateTime>(nullable: false),
                     CreatorUserId = table.Column<long>(nullable: true),
@@ -296,8 +296,8 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                 name: "AbpUsers",
                 columns: table => new
                 {
-                    Id = table.Column<long>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<long>(nullable: false),
+                        //.Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     AccessFailedCount = table.Column<int>(nullable: false),
                     AuthenticationSource = table.Column<string>(maxLength: 64, nullable: true),
                     ConcurrencyStamp = table.Column<string>(nullable: true),
@@ -355,8 +355,8 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                 name: "AbpFeatures",
                 columns: table => new
                 {
-                    Id = table.Column<long>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<long>(nullable: false),
+                        //.Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     CreationTime = table.Column<DateTime>(nullable: false),
                     CreatorUserId = table.Column<long>(nullable: true),
                     Discriminator = table.Column<string>(nullable: false),
@@ -380,8 +380,8 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                 name: "AbpUserClaims",
                 columns: table => new
                 {
-                    Id = table.Column<long>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<long>(nullable: false),
+                        //.Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     ClaimType = table.Column<string>(nullable: true),
                     ClaimValue = table.Column<string>(nullable: true),
                     CreationTime = table.Column<DateTime>(nullable: false),
@@ -404,8 +404,8 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                 name: "AbpUserLogins",
                 columns: table => new
                 {
-                    Id = table.Column<long>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<long>(nullable: false),
+                        //.Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     LoginProvider = table.Column<string>(maxLength: 128, nullable: false),
                     ProviderKey = table.Column<string>(maxLength: 256, nullable: false),
                     TenantId = table.Column<int>(nullable: true),
@@ -426,8 +426,8 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                 name: "AbpUserRoles",
                 columns: table => new
                 {
-                    Id = table.Column<long>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<long>(nullable: false),
+                        //.Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     CreationTime = table.Column<DateTime>(nullable: false),
                     CreatorUserId = table.Column<long>(nullable: true),
                     RoleId = table.Column<int>(nullable: false),
@@ -449,8 +449,8 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                 name: "AbpUserTokens",
                 columns: table => new
                 {
-                    Id = table.Column<long>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<long>(nullable: false),
+                        //.Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     LoginProvider = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     TenantId = table.Column<int>(nullable: true),
@@ -472,8 +472,8 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                 name: "AbpSettings",
                 columns: table => new
                 {
-                    Id = table.Column<long>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<long>(nullable: false),
+                        //.Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     CreationTime = table.Column<DateTime>(nullable: false),
                     CreatorUserId = table.Column<long>(nullable: true),
                     LastModificationTime = table.Column<DateTime>(nullable: true),
@@ -498,8 +498,8 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                 name: "AbpRoles",
                 columns: table => new
                 {
-                    Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<int>(nullable: false),
+                        //.Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     ConcurrencyStamp = table.Column<string>(nullable: true),
                     CreationTime = table.Column<DateTime>(nullable: false),
                     CreatorUserId = table.Column<long>(nullable: true),
@@ -542,8 +542,8 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                 name: "AbpTenants",
                 columns: table => new
                 {
-                    Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<int>(nullable: false),
+                        //.Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     ConnectionString = table.Column<string>(maxLength: 1024, nullable: true),
                     CreationTime = table.Column<DateTime>(nullable: false),
                     CreatorUserId = table.Column<long>(nullable: true),
@@ -590,8 +590,8 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                 name: "AbpPermissions",
                 columns: table => new
                 {
-                    Id = table.Column<long>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<long>(nullable: false),
+                        //.Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     CreationTime = table.Column<DateTime>(nullable: false),
                     CreatorUserId = table.Column<long>(nullable: true),
                     Discriminator = table.Column<string>(nullable: false),
@@ -622,8 +622,8 @@ namespace AbpCompanyName.AbpProjectName.Migrations
                 name: "AbpRoleClaims",
                 columns: table => new
                 {
-                    Id = table.Column<long>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<long>(nullable: false),
+                        //.Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     ClaimType = table.Column<string>(nullable: true),
                     ClaimValue = table.Column<string>(nullable: true),
                     CreationTime = table.Column<DateTime>(nullable: false),
