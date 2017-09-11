@@ -10,9 +10,11 @@ User Interface is based on [BSB Admin theme](https://github.com/gurayyarar/Admin
 - cd aspnet-core/src/AbpCompanyName.AbpProjectName.EntityFrameworkCore
 - dotent restore
 - Configure mysql server in:
+    ```
     AbpCompanyName.AbpProjectName.Migrator/appsettings.json
     AbpCompanyName.AbpProjectName.Web.Mvc/appsettings.json
     AbpCompanyName.AbpProjectName.Web.Host/appsettings.json
+    ```
 - dotnet ef database update
 - cd ../AbpCompanyName.AbpProjectName.Web.Host
 - dotnet run
