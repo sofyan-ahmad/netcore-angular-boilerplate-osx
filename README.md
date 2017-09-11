@@ -1,6 +1,6 @@
 # Introduction
 
-This is a template to create **.NET Core API and Angular for OSX and linux**, based startup projects for [ASP.NET Boilerplate](https://aspnetboilerplate.com/Pages/Documents).
+This is a template to create **.NET Core API and Angular for OSX and linux with MySQL DB**, based startup projects for [ASP.NET Boilerplate](https://aspnetboilerplate.com/Pages/Documents).
  
 User Interface is based on [BSB Admin theme](https://github.com/gurayyarar/AdminBSBMaterialDesign).
  

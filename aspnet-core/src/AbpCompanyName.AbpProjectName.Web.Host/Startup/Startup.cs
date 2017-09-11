@@ -68,6 +68,17 @@ namespace AbpCompanyName.AbpProjectName.Web.Host.Startup
             {
                 options.SwaggerDoc("v1", new Info { Title = "AbpProjectName API", Version = "v1" });
                 options.DocInclusionPredicate((docName, description) => true);
+
+                // Define the BearerAuth scheme that's in use
+                options.AddSecurityDefinition("bearerAuth", new ApiKeyScheme()
+                {
+                    Description = "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+                    Name = "Authorization",
+                    In = "header",
+                    Type = "apiKey"
+                });
+                // Assign scope requirements to operations based on AuthorizeAttribute
+                options.OperationFilter<SecurityRequirementsOperationFilter>();
             });
 
             //Configure Abp and Dependency Injection
@@ -112,6 +123,8 @@ namespace AbpCompanyName.AbpProjectName.Web.Host.Startup
             // Enable middleware to serve swagger-ui assets (HTML, JS, CSS etc.)
             app.UseSwaggerUI(options =>
             {
+                options.InjectOnCompleteJavaScript("/swagger/ui/abp.js");
+                options.InjectOnCompleteJavaScript("/swagger/ui/on-complete.js");
                 options.SwaggerEndpoint("/swagger/v1/swagger.json", "AbpProjectName API V1");
             }); //URL: /swagger
         }
